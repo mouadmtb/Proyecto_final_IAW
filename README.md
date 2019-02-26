@@ -35,7 +35,7 @@ La **interfaz de programación de aplicaciones**, (**API**), es un conjunto de s
 
 Una vez descargada la ultima versión del enlace anterior hay que descomprimirlo:
 
-![](../img/5.png)
+![](./img/5.png)
 
 ## Instalación y Configuración de Wordpress (II)
 
@@ -47,27 +47,27 @@ Una vez hecho esto entramos al siguiente enlace -> http://localhost/wordpress/wp
 
 ## Instalación y Configuración de Wordpress (III)
 
-![](../img/8.png)
+![](./img/8.png)
 
 ## Instalación y Configuración de Wordpress (IV)
 
-![](../img/9.png)
+![](./img/9.png)
 
 ## Instalación y Configuración de Wordpress (V)
 
-![](../img/10.png)
+![](./img/10.png)
 
 ## Configuración de la API
 
 Entramos en la siguiente [página](https://www.football-data.org)
 
-![](../img/1.jpeg)
+![](./img/1.jpeg)
 
 ## Configuración de la API (II)
 
 Una vez nos encontramos registrados en dicha página recibiremos un correo a la cuenta introducida, en el que se nos asigna el token.
 
-![](../img/2.png)
+![](./img/2.png)
 
 ## Configuración de la API (III)
 
@@ -77,7 +77,7 @@ Como se puede ver en la foto, dentro del archivo **config.ini** introducimos nue
 
 ## Configuración de la API (IV)
 
-![](../img/4.jpeg)
+![](./img/4.jpeg)
 
 ## Archivo **index.php**
 
@@ -101,13 +101,13 @@ Para que fuera más fácil la introducción de los archivos en la página hemos 
 
 - En un principio lo teniamos asi:
 
-	 ![](../img/34.png)
+	 ![](./img/34.png)
 
 ## Modificación de archivos .php e .ini (III)
 
 - Lo cambiamos a la siguiente manera:
 
-	![](../img/35.png)
+	![](./img/35.png)
 
 ## Introducción de la API a nuestra página de WordPress
 
@@ -117,19 +117,19 @@ Necesitabamos encontrar un plugin que hiciera que nuestro **código PHP** fuera 
 
 Entramos en **plugins** y buscamos XYZ PHP CODE, lo descargamos, instalamos y activamos.
 
-![](../img/18.png)
+![](./img/18.png)
 
 ### **XYZ PHP CODE** (II)
 
 Una vez lo tenemeos activado nos vamos a add New PHP Code Snippet e insertamos el códido php de **index.php**. 
 
-![](../img/20.png)
+![](./img/20.png)
 
 ### **XYZ PHP CODE** (III)
 
 A continuación insertamos también el código php de **football-data.php**. 
 
-![](../img/21.png)
+![](./img/21.png)
 
 ### **XYZ PHP CODE** (IV)
 
@@ -147,29 +147,29 @@ Buscando en Internet encontramos [**WOODY SNIPPETS**](https://es.wordpress.org/p
 
 Dentro de plugin lo descargamos, instalamos y activamos.
 
-![](../img/11.png)
+![](./img/11.png)
 
 ### WOODY SNIPPETS (III)
 
-![](../img/14.png)
+![](./img/14.png)
 
 ### WOODY SNIPPETS (IV)
 
 Nos disponemos a introducir los códigos, dentro de Woody, en **PHP Snippet y Create Item**.
 
-![](../img/15.png)
+![](./img/15.png)
 
 ### WOODY SNIPPETS (V)
 
 Insertamos primero index.php 
 
-![](../img/16.png)
+![](./img/16.png)
 
 ### WOODY SNIPPETS (IV)
 
 Una vex insertado nuestro index.php insertamos también footballData.php.
 
-![](../img/17.png)
+![](./img/17.png)
 
 Nos damos cuenta de que esta manera para insertar código php en WordPress tampoco nos sirve.
 
@@ -185,7 +185,7 @@ Para la utilización de los plugin que hemos probado tenemos que utilizar un [Ed
 
 Hay que ir a Plugin, instalarlo y activarlo.
 
-![](../img/12.png)
+![](./img/12.png)
 
 ### Problema para insertar código PHP en **WordPress Versión 5.0.3** (IV)
 
@@ -193,7 +193,7 @@ A continuación, en Ajustes de escritura habilitamos la utilización del Editor 
 
 ### 
 
-![](../img/13.png)
+![](./img/13.png)
 
 ### Problema para insertar código PHP en **WordPress Versión 5.0.3** (V)
 
@@ -209,15 +209,15 @@ Descargamos [una plantilla gratuita](https://www.hostinger.es/tutoriales/mejores
 
 Dentro de WordPress nos vamos a **apariencia, temas, añadir uno nuevo, subir tema, seleccionar archivo**; cuando está seleccionado lo instalamos.
 
-![](../img/23.png)
+![](./img/23.png)
 
 ### Instalación (III)
 
-![](../img/44.png)
+![](./img/44.png)
 
 ### Personalización del tema 
 
-![](../img/24.png)
+![](./img/24.png)
 
 ### Personalización del tema (II)
 
@@ -257,31 +257,31 @@ En esta [página](https://shellcreeper.com/wp-ajax-for-beginners/) descagamos el
 
 En el .zip encontramos 
 
-![](../img/36.png)
+![](./img/36.png)
 
 ## Creación Primeras Tablas (III)
 
 Dentro de WordPress, plugin, añadir nuevo, subir plugin,lo seleccionamos, subimos, instalamos y activamos. 
 
-![](../img/37.png)
+![](./img/37.png)
 
 ## Creación Primeras Tablas (IV)
 
 Añadimos los **.php** a la dirección **/opt/lampp/htdocs/wordpress/wp-content/plugins/wp-ajax-noob-p1-john-cena**
 
-![](../img/38.png)
+![](./img/38.png)
 
 ### Modificaciones
 
 - Modificación **wp-ajax-noob.php**
   
-   ![](../img/39.png)
+   ![](./img/39.png)
 
 ### Modificaciones (II)
 
 - Modificación **showResult**
  
-  ![](../img/40.png)
+  ![](./img/40.png)
 
 ### Modificaciones (III)
 
@@ -291,7 +291,7 @@ Existen dos maneras de hacerlo
 
 Dentro del archivo redireccionar para que coja el archivo **FootballData.php** 
   
-  ![](../img/45.png)
+  ![](./img/45.png)
 
 ### Modificaciones (V)
 
@@ -302,31 +302,31 @@ Dentro del archivo redireccionar para que coja el archivo **FootballData.php**
 
 ### Modificaciones (VI)
 
- ![](../img/41.png)
+ ![](./img/41.png)
 
 ### Modificaciones (VII)
 
-![](../img/42.png)
+![](./img/42.png)
 
 ## Creación Segundas Tablas
 
 Añadimos los php index y footballData de la segunda tabla
 
-![](../img/27.png)
+![](./img/27.png)
 
 ## Creación Segundas Tablas (II)
 
-![](../img/28.png)
+![](./img/28.png)
 
 ## Creación Terceras Tablas
 
 Añadimos los php index y footballData de la tercera tabla
 
-![](../img/30.png)
+![](./img/30.png)
 
 ## Creación Terceras Tablas (II)
 
-![](../img/29.png)
+![](./img/29.png)
 
 ## Creación Primera Página (Resultados por jornadas)
 
@@ -337,7 +337,7 @@ Añadimos los php index y footballData de la tercera tabla
 
 ## Resultados por jornadas
 
-![](../img/43.png)
+![](./img/43.png)
 
 ## Creación Segunda Página (Actual tabla de la liga Santander)
 
@@ -348,7 +348,7 @@ Añadimos los php index y footballData de la tercera tabla
 
 ## Actual tabla de la liga Santander
 
-![](../img/32.png)
+![](./img/32.png)
 
 ## Creación Tercera Página (Próximos partidos)
 
@@ -359,7 +359,7 @@ Añadimos los php index y footballData de la tercera tabla
 
 ## Próximos partidos
 
-![](../img/33.png)
+![](./img/33.png)
 
 
 
